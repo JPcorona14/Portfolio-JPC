@@ -71,7 +71,13 @@ let coreSkills = {
 				<img src={$toggleMode === 'dark' ? moonDark : moonLight} alt="moon" class="scale-150" />
 			</div>
 		</main>
-		<div class="flex flex-col mt-24 pb-24 ml-auto mr-auto">
+		<div class="flex flex-col mt-10 pb-24 ml-auto mr-auto">
+			<h1 class="h1 ml-auto mr-auto">
+				<span
+					class="bg-gradient-to-br from-blue-500 to-cyan-300 bg-clip-text text-transparent box-decoration-clone"
+					>Projects</span
+				>
+			</h1>
 			{#each data.projects as proj}
 				<ProjectCard
 					side={proj.side}
