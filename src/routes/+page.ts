@@ -1,6 +1,5 @@
 import odeitsImg from '../assets/Odeits.png';
 import portfolio from '../assets/Portfolio.png';
-import portfolio2 from '../assets/Portfolio2.png';
 
 /** @type {import('./$types').PageLoad} */
 export function load() {
@@ -26,8 +25,8 @@ export function load() {
 		<project>{
 			side: 'Right',
 			name: 'Portfolio',
-			site: 'https://www.Dev-Jesualdo.com',
-			picture: portfolio2,
+			site: 'https://portfolio-jpc.pages.dev/',
+			picture: portfolio,
 			description:
 				"This site stands as my personal resume for all the projects I've completed and everything I've contributed to as a developer. I've also include information about past roles before becoming a developer.",
 			code: ['Sveltekit', 'Typescript', 'Tailwind', 'Vercel']
