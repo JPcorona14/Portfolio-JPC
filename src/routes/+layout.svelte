@@ -17,7 +17,7 @@
 
 <!-- <body class="max-w-[1920px] ml-auto mr-auto"> -->
 <!-- This is the pop up that shows the phone number and email when the menu button on the top right is clicked -->
-<Drawer position="right" duration={300} padding=" pl-60">
+<Drawer position="right" duration={300} padding=" pl-24">
 	<ul class=" list-none pl-2 flex flex-col justify-center">
 		<li class=" font-bold underline text-center mt-2 mb-10">Contact Information:</li>
 
@@ -38,7 +38,7 @@
 		</li>
 
 		<!-- This is the light switch from skelton ui that allows us to shift between light and dark mode (default: dark) -->
-		<li class="border place-self-center">
+		<li class="border place-self-center col-start-3">
 			<LightSwitch
 				on:click={() => ($toggleMode === 'dark' ? ($toggleMode = 'light') : ($toggleMode = 'dark'))}
 			/>
